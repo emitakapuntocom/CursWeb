@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="logo.png" href="logo.png" size="32x32">
+    
+    <title>Molipanes</title>
+</head>
+
+<body>
+    <img src="logo.png" alt="Molipanes" height="100"><img src="logo.png" alt="Molipanes" align="right" height="100">
+
+
+    <h1 align="center">MOLIPANES</h1>
+    
+    <img src="logo.png" alt="Molipanes" height="100"><img src="logo.png" alt="Molipanes" align="right" height="100">
+
+    <hr><hr><hr><hr>
+    
+    <p>¡Hola! Somos una empresa familiar que fabrica dulces artesanales. Nuestro principal producto son los mazapanes, de los cuáles manejamos 3 tipos distintos: los tradicionales, los rellenos y los gourmet. Los tradicionale son una mezcla de cacahuate, miel, piloncillo y algún dulce o semilla. Los rellenos son la mezcla tradicional con algún tipo de ate o mermelada dentro del mazapán. Y los gourmet no llevan nada de cacahuate, son pura almendra, nuez, pistache, macadamia, etc. También contamos con una gran variedad de dulces tradicionales de México. ¡Bienvenidos!</p>
+
+    <hr><hr><hr><hr>
+
+    <h2 align="center">Tipos de mazapanes</h2>
+
+    </table>
+    <table border="1" align="center">
+        <thead>
+            <th style="background-color: purple">Tradicionales</th>
+            <th style="background-color: purple">Rellenos</th>
+            <th style="background-color: purple">Gourmet</th>
+        </thead>
+
+        <tbody>
+            <td align="center">Todos están hechos a base de cacahuate y se muele con miel, piloncillo y algún dulce o semilla, tal como almendra, chocolate, cacao, capuchino, etc. o solo se le pone la semilla como decoración</td>
+            <td align="center"> Los rellenos son un mazapán hecho a base de la mezcla tradicional y se le pone adentro algún tipo de ate, cajeta, avellana, mermelada, etc.</td>
+            <td align="center">Estos mazapanes son especiales, ya que no llevan nada de cacahuate. Es el mismo proceso que los tradicionales, solo que en vez de molerse el cacahuate, se muele almendra, nuez, macadamia, pistache, etc.</td>
+        </tbody>
+
+        <tbody>
+            <td align="center">
+                <img src="trad.jpeg" alt="Mazapán Tradicional" height="300">
+            </td>
+            <td align="center">
+                <img src="rell.jpeg" alt="Mazapán Relleno" height=300>
+            </td>
+            <td align="center">
+                <img src="gourmet.jpeg" alt="Mazapán Gourmet" height="300">
+            </td>
+        </tbody>
+
+    </table>
+
+    <br><hr><hr><hr><hr>
+
+    <form>
+
+        <h2 align="center">Datos de la compra</h2>
+    
+        <label>¿Qué tipo de mazapán llevarás?</label><br>
+        <input type="checkbox" name="Tradicional" value="Tradicional">Tradicional
+        <input type="checkbox" name="Relleno" value="Relleno">Relleno
+        <input type="checkbox" name="Gourmet" value="Gourmet">Gourmet
+    
+        <br><br>
+
+        <label for="cant">¿Cuantos llevarás?: </label>
+        <input type="number" name="cant" id="cant" placeholder="Ingresa una cantidad" min="1">
+    
+        <br><br>
+
+        <label>¿En que quiere que se le entreguen?</label><br>
+        <input type="radio" name="entrega" value="caja">Caja<br>
+        <input type="radio" name="entrega" value="bolsa">Bolsa
+    
+        <br><br>
+
+        <label>¿Cuándo deseas que se te entregue?</label>
+        <input type="date" name="fecha" max="30/11/2023">
+
+        <br><br>
+
+        <label>¿Desea que decoremos el envío?</label><br>
+        <input type="radio" name="deco" value="si">Sí<br>
+        <input type="radio" name="deco" value="no">No
+
+        <br><br>
+
+            <label>¿De qué color quiere su moño?</label><br>
+            <select name="seleccionar">
+            <option value="value1">Verde</option>
+            <option value="value2">Rojo</option>
+            <option value="value3">Rosa</option>
+            <option value="value4">Morado</option>
+            <option value="value5">Azul</option>
+        </select>
+
+        <br><br>
+
+        <label for="cum">Comentarios: </label><br>
+        <textarea type="msg" name="comentario" id="cum" placeholder="Notas, comentarios, añadidos."></textarea>   
+
+        <br><br><hr><hr><hr><hr>
+
+        <h2 align="center">Datos del comprador</h2>
+
+        <label for="nom">Nombre:</label>
+        <input type="text" name="nombre" id="nom" placeholder="Ingresa tu nombre">
+
+        <br><br>
+
+        <label for="mail">Correo elentrónico:</label>
+        <input type="email" name="correo" id="mail" placeholder="Ingresa tu correo">
+
+        <br><br>
+
+        <label for="tel">Número de teléfono:</label>
+        <input type="number" name="Teléfono" id="tel" placeholder="Ingresa tu número telefónico">
+
+        <br><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" name="Edad" id="edad" min="1" max="99" placeholder="18">
+
+        <br><br>
+
+        <label>Estado:</label><br>
+        <select name="seleccionar">
+            <option value="extra">--Seleccionar estado--</option>
+            <option value="edo1">Aguascalientes</option>
+            <option value="edo2">Baja California</option>
+            <option value="edo3">Baja California Sur</option>
+            <option value="edo4">Campeche</option>
+            <option value="edo5">Chiapas</option>
+            <option value="edo6">Chihuahua</option>
+            <option value="edo7">CDMX</option>
+            <option value="edo8">Coahuila</option>
+            <option value="edo9">Colima</option>
+            <option value="edo10">Durango</option>
+            <option value="edo11">EDOMEX</option>
+            <option value="edo12">Guanajuato</option>
+            <option value="edo13">Guerrero</option>
+            <option value="edo14">Hidalgo</option>
+            <option value="edo15">Jalisco</option>
+            <option value="edo16">Michoacán</option>
+            <option value="edo17">Morelos</option>
+            <option value="edo18">Nayarit</option>
+            <option value="edo19">Nuevo León</option>
+            <option value="edo20">Oaxaca</option>
+            <option value="edo21">Puebla</option>
+            <option value="edo22">Querétaro</option>
+            <option value="edo23">Quintana Roo</option>
+            <option value="edo24">San Luis Potosí</option>
+            <option value="edo25">Sinaloa</option>
+            <option value="edo26">Sonora</option>
+            <option value="edo27">Tabasco</option>
+            <option value="edo28">Tamaulipas</option>
+            <option value="edo29">Tlaxcala</option>
+            <option value="edo30">Veracruz</option>
+            <option value="edo31">Yucatán</option>
+            <option value="edo32">Zacatecas</option>
+        </select>
+    
+        <br><br>
+
+        <label for="msg">Comentarios, detalles, extras: </label><br>
+        <textarea type="msg" name="detalles" id="msg" placeholder="Escribir aquí"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar"> 
+
+    </form>
+
+    <img src="likee.jpg" height="100">
+
+</body>
+</html>

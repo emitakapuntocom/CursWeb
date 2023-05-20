@@ -1,0 +1,31 @@
+@font-face
+{
+    font-family:"sun-flower";
+    src: url('../fuentes/statics/fonts/sun-flower/Sun\ Flower\ Free.ttf'); 
+}
+
+@font-face
+{
+    font-family:"butterflies";
+    src: url('../fuentes/statics/fonts/butterflies/Butterflies\ Free.ttf'); 
+}
+
+
+h2
+{
+    font-family:"sun-flower",sans-serif,Verdana;
+    color:blueviolet;
+    text-align: center;
+    font-size: x-large;
+}
+
+p{
+    font-family: "butterflies",fantasy;
+    font-size: medium;
+}
+
+.titulo{
+    font-family: sans-serif;
+    color: rgb(249, 41, 145);
+
+}
