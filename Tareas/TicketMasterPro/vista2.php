@@ -26,7 +26,7 @@
 
     $est=(isset($_POST['est']) && $_POST["est"] != "")? $_POST['est'] : "Sin lugar de estacionamiento";
 
-    $myg=(isset($_POST['myg']) && $_POST["myg"] != "")? $_POST['m&g'] : "No compró meet & great";
+    $myg=(isset($_POST['myg']) && $_POST["myg"] != "")? $_POST['myg'] : "No compró meet & great";
 
     for($i=0; $i<$_POST['cantidad']; $i++){
         echo '<h2 align="center">Resumen de la compra (boletos)</h2>';
@@ -62,6 +62,9 @@
             </tbody>
         </table>';
     }
+
+
+    
     ?>
 </body>
 </html>

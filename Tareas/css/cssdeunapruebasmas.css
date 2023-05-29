@@ -1,0 +1,31 @@
+*/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}*/
+
+.cajas{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(252,168,168);
+    margin: 10px;
+}
+
+.contenedor{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    height: 100vh;
+    align-content: space-between;
+    align-items: center;
+}

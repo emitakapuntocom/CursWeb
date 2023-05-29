@@ -1,0 +1,283 @@
+*{
+    text-align: center;
+}
+
+@font-face {
+    font-family: "mario";
+    src: url("../Statics-Assets/mario_kart_ds/Mario-Kart-DS.ttf");
+}
+
+@font-face {
+    font-family: "pajarosenojados";
+    src: url("../Statics-Assets/angrybirds/angrybirds-regular.ttf");
+}
+
+@font-face {
+    font-family: "buenosdias";
+    src: url("../Statics-Assets/good_morning_2/Good\ Morning.ttf");
+}
+
+body{
+    background-image: url("https://igormiranda.com.br/wp-content/uploads/2020/06/red-hot-chili-peppers-the-getaway-arte-f82-min.jpg");
+    position: sticky;
+}
+
+#uwuwu::first-letter{
+    background-color: #3e77b6;
+}
+
+.caja{
+    width: 35em;
+    height: 24rem;
+    margin: auto;
+    padding: 25;
+    border: 5px solid black;
+    font-family: "mario";
+    background-image: url("https://i0.wp.com/www.vinilonegro.com/wp-content/uploads/2022/04/Red-Hot-Chili-Peppers-11.1-e1649435146858.png?resize=600%2C381&ssl=1");
+    color: #FFFFFF;
+    border: inset;
+    overflow: auto;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.si{
+    background-color: #3e77b6;
+    font-family: "pajarosenojados";
+}
+
+.si:hover{
+    background-color: #fa86c4;
+}
+
+.yellow{
+    background-color: #660066;
+    font-family: "pajarosenojados";
+}
+
+.yellow:hover{
+    background-color: yellow;
+}
+
+#top{
+    background-color: green;
+}
+
+#top:hover{
+    background-color: #FF3399;
+}
+
+table{
+    background-image: url("https://lastfm.freetls.fastly.net/i/u/500x500/b001c9d63ef04549a30ef6aeea20b8e3.jpg");
+    background-size: 275px;
+    border: dotted;
+}
+
+li{
+    background-color: #660066;
+}
+
+li:hover{
+    background-color: green ;
+}
+
+#lista {
+    display: grid;
+    justify-content: center;
+    align-content: space-evenly;
+    align-items: baseline;
+    justify-items: center;
+    color: #FF9999;
+} 
+
+/*.desorden::before{
+    width: 100;
+    height: 100;
+}*/
+
+.desorden{
+    list-style-type: georgian;
+    width: 100;
+    height: 100;
+}
+
+a:visited{
+    color: green ;
+}
+
+a:link{
+    color:#660066;
+    background-color: #FF3399;
+}
+
+a:hover{
+    background-color: #ffdc3c;
+}
+
+video{
+    border: double;
+}
+
+.teporingo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+}
+
+.cabeza{
+    width: 100px;
+    height: 100px;
+    background-color: #6f6f6f;
+    border-radius: 50%;
+    left: -125px;
+    position: relative;
+    border: 2px solid #000000;
+}
+
+.oreja1{
+    width: 60px;
+    height: 90px;
+    background-color: #6f6f6f;
+    border-radius: 50%;
+    top: -50px; left: 76px;
+    transform: rotate(-10deg);
+    position: relative;
+    border: 2px solid #000000;
+}
+
+.oreja2{
+    width: 60px;
+    height: 90px;
+    background-color: #6f6f6f;
+    border-radius: 50%;
+    top: -50px; left: 75px;
+    transform: rotate(10deg);
+    position: relative;
+    border: 2px solid #000000;
+}
+
+.ojo1{
+    width: 20px;
+    height: 28px;
+    background-color: #000000;
+    border-radius: 50%; 
+    top: -15px; left: -205px;
+    position: relative;
+}
+
+.ojo2{
+    width: 20px;
+    height: 28px;
+    background-color: #000000;
+    border-radius: 50%;
+    top: -15px; left: -185px;
+    position: relative;
+}
+
+.brillito1{
+    width: 9px;
+    height: 9px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    top: -15px; left: -235px;
+    position: relative;
+}
+
+.brillito2{
+    width: 9px;
+    height: 9px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    top: -15px; left: -205px;
+    position: relative;
+}
+
+.dentrooreja1{
+    width: 40px;
+    height: 90px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    top: -40px; left: -37px;
+    transform: rotate(-15deg);
+    position: relative;
+    border: 2px solid #000000;
+}
+
+.dentrooreja2{
+    width: 40px;
+    height: 90px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    top: -40px; left: -25px;
+    transform: rotate(15deg);
+    position: relative;
+    border: 2px solid #000000;
+}
+
+.nariz{
+    width: 0;
+    height: 0;
+    border-top: 15px solid #fa86c4; 
+    border-right: 15px solid transparent;
+    top: 10px; left: -241px;
+    transform: rotate(225deg);
+    position: relative;
+}
+
+.temfav{
+    display: flex;
+    height: 30vh;
+    width: 98vw;
+    justify-content:center;
+    align-items: flex-end;
+    gap: 5px;
+    font-family: "buenosdias";
+}
+
+.num1{
+    width: 100px;
+    height: 175px;
+    background-color: #FFD700;
+    border: 2px solid #000000;
+}
+
+.puesto1{
+    height: -1vh;
+    width: 3vw;
+    top: 570vh; left: 615px;
+    background-color: transparent;
+    position: absolute;
+}
+
+.puesto2{
+    height: 15vw;
+    position: absolute;
+}
+
+.puesto3{
+    height: 15vh;
+    width: 13vw;
+    top: 569vh; left: 765px;
+    background-color: transparent;
+    position: absolute;
+
+}
+
+.num2{
+    width: 100px;
+    height: 150px;
+    background-color: #8a9597;
+    border: 2px solid #000000;
+}
+
+.num3{
+    width: 100px;
+    height: 125px;
+    background-color: #CC7436;
+    border: 2px solid #000000;
+}

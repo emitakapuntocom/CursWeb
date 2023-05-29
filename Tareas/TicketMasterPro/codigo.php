@@ -35,7 +35,7 @@
                 <br><br>
 
                 <label for="artista"><strong>¿Qué artista quieres ver?</strong></strong></label>
-                <select name="artista" id="artista" name="artista" required>
+                <select name="artista" id="artista" required>
                     <option value="">--Seleccionar artista--</option>
                     <option value="Panic! at the disco">Panic! at the disco</option>
                     <option value="Cuarteto de nos">Cuarteto de nos</option>
