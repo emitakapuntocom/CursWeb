@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+
+#boton{
+    position: absolute;
+    left:600px;
+    top: 200px;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(89,1,148);
+    border-radius: 100px;
+
+    animation-name: movimiento;
+    animation-duration: 2s;
+    animation-timing-function: lineal;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes movimiento{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(200px);
+    }
+}
+
