@@ -21,6 +21,7 @@ body{
     background-image: url("https://igormiranda.com.br/wp-content/uploads/2020/06/red-hot-chili-peppers-the-getaway-arte-f82-min.jpg");
 }
 
+<<<<<<< HEAD
 /*body::-webkit-scrollbar {
     width: 0px;               /* width of the entire scrollbar 
   }*/
@@ -38,6 +39,21 @@ body{
     border-radius: 20px;       /* roundness of the scroll thumb */
     border: 3px solid green;  /* creates padding around scroll thumb */
   }
+=======
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+ body::-webkit-scrollbar-track {
+    background: green;        /* color of the tracking area */
+ }
+  
+ body::-webkit-scrollbar-thumb {
+    background-color: #660066;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid green;  /* creates padding around scroll thumb */
+ }
+>>>>>>> 268b8b3b8c1e2287a9c8f2b1b76076f83f5892a4
 
 #uwuwu::first-letter{
     background-color: #3e77b6;
