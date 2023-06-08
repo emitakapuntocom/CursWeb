@@ -1,0 +1,427 @@
+body{
+  background-image: url("../img/Ethereal_Island_29.jpg");  
+}
+@font-face {
+    font-family: "coffecake";
+    src: url("../fonts/coffecake/CoffeCake.ttf");
+}
+@font-face {
+  font-family: "copper";
+  src: url("../fonts/cooper-black-five/CooperFiveOpti-Black.otf");
+}
+.arriba{
+    width: 1520px;
+    height: 75px;
+    font-family: "coffecake";
+    border: 2px solid #000000;
+    animation: colors 3s linear forwards infinite alternate;
+}
+h1:hover{
+  animation: vueltacolor 1s linear infinite;
+}
+p{
+  -webkit-text-stroke: 1px black;
+  color: #FFFFFF; 
+}
+.titulo{
+  width: 150px;
+  position: relative;
+  top: -65px;
+}
+.otrocontenedor{
+  text-align: center;
+}
+@keyframes coloress{
+  0%{
+    background-color: #75D5FD;
+  }
+  25%{
+    background-color: #B76CFD;
+  }
+  50%{
+    background-color: #FF2281;
+  }
+  75%{
+    background-color: #011FFD;
+  }
+  100%{
+    background-color: #1EFF05;
+  }
+}
+@keyframes colors{
+  0%{
+    background-color: #8a2be2;
+  }
+  50%{
+    background-color: #0060e6;
+  }
+  100%{
+    background-color: #f03687;
+  }
+}
+@keyframes rombo{
+  0%{
+    transform: translatex(0px);
+  }
+  16.6%{
+    transform: translateY(-50px);
+  }
+  33.2%{
+    transform: translateX(50px);
+  }
+  49.8%{
+    transform: translateY(50px);
+  }
+  66.4%{
+    transform: translateX(-50px);
+  }
+  83%{
+    transform: translateY(-50px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+@keyframes vueltas{
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes vueltacolor{
+  0%{
+    transform: rotateZ(0deg);
+  }
+  50%{
+    color: #FFFFFF;
+  }
+  100%{
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes satleuv{
+  from{
+    transform: rotateZ(360deg);
+  }
+  to{
+    transform: rotateZ(0deg);
+  }
+}
+@keyframes up{
+  0%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(-30px);
+    width: 120px;
+    height: 60px;
+    font-size: large;
+  }
+}
+.elemento{
+  width: 50px;
+  position: relative;
+  top: 10px; left: -100px;
+
+  animation: vueltas 5s linear infinite;
+}
+.plasma{
+  width: 50px;
+  position: relative;
+  top: 80px; left: -50px;
+}
+.element0{
+  width: 50px;
+  position: relative;
+  top: -150px; left: 120px;
+
+  animation: satleuv 5s linear infinite;
+}
+.contmonst{
+  width: 900px;
+  height: 450px;
+  position: relative;
+  top: 20vh; left: 20vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.tamaño:hover{
+  border-radius: 10%;
+  border: 1px solid black;
+  animation: coloress 3s linear infinite alternate, vueltas 2s linear infinite;
+}
+.rombo:hover{
+  animation: rombo 3s linear infinite forwards;
+}
+.info{
+  width: 110px;
+  height: 50px;
+  background-size: 100px 100px;
+  position: relative;
+  font-family: "copper";
+  border-radius: 10%;  
+  text-align: center;
+}
+#horrar{
+  width: 150px;
+  position: relative;
+  top: -50px; left: 380px;
+}
+#infohorrar{
+  background-image: url("../img/mercurio.jpg");
+  top: -400px; left: 710px;
+}
+#infohorrar:hover{
+  animation: up 1s ease 1 forwards;
+}
+#horrar:active
+{
+  z-index: -1;
+  background-image: url("../img/Rare_Ghazt.jpg");
+  background-size: 150px;
+}
+#jeoda{
+  width: 150px;
+  position: relative;
+  top: 0px; left: 590px;
+}
+#infojeoda{
+  background-image: url("../img/diamanterosa.jpg");
+  top: -420px; left: 1090px;
+}
+#infojeoda:hover{
+  animation: up 1s ease 1 forwards;
+}
+#jeoda:active{
+  z-index: -1;
+  background-image: url("../img/Rare_Jeeode.jpg");
+  background-size: 150px;
+}
+#tarabicho{
+  width: 200px;
+  position: relative;
+  top: -75px; left: 175px;
+}
+#infotarabicho{
+  background-image: url("../img/fondotarabicho.jpg");
+  top: -550px; left: 860px;
+}
+#infotarabicho:hover{
+  animation: up 1s ease forwards;
+}
+#tarabicho:active{
+  z-index: -1;
+  background-image: url("../img/Rare_Humbug.jpg");
+  background-size: 200px;
+}
+#gruñista{
+  width: 150px;
+  position: relative;
+  top: 170px; left: 150px;
+}
+#infogruñista{
+  background-image: url("../img/ghosts.jpg");
+  top: -180px; left: 1020px;
+}
+#infogruñista:hover{
+  animation: up 1s ease 1 forwards;
+}
+#gruñista:active{
+  z-index: -1;
+  background-image: url("../img/Rare_Grumpyre.jpg");
+  background-size: 150px;
+}
+#rebro{
+  width: 150px;
+  position: relative;
+  top: 20px; left: -690px;
+}
+#inforebro{
+  width: 90px;
+  background-image: url("../img/tuercas.jpg");
+  top: -500px; left: 200px;
+}
+#inforebro:hover{
+  animation: up 1s ease 1 forwards;
+}
+#rebro:active{
+  z-index: -1;
+  background-image: url("../img/Rare_Reebro.jpg");
+  background-size: 150px;
+}
+#vudu{
+  width: 150px;
+  position: relative;
+  top: -25px; left: -125px;
+}
+#infovudu{
+  width: 90px;
+  background-image: url("../img/huesos.jpg");
+  top: -275px; left: 340px;
+}
+#infovudu:hover{
+  animation: up 1s ease 1 forwards;
+}
+#vudu:active{
+  z-index: -1;
+  background-image: url("../img/Rare_Boodoo.jpg");
+  background-size: 150px;
+}
+#susura{
+  width: 125px;
+  position: relative;
+  top: -425px; left: 100px;
+}
+#infosusura{
+  background-image: url("../img/ghosts.jpg");
+  top: -870px; left: 300px;
+}
+#infosusura:hover{
+  animation: up 1s ease 1 forwards;
+}
+#susura:active{
+  z-index: -1;
+  background-image: url("../img/Rare_Whisp.jpg");
+  background-size: 200px;
+}
+#santahong{
+  width: 150px;
+  position: relative;
+  top: -300px; left: -50px;
+}
+#infosantahong{
+  background-image: url("../img/fondosantahong.jpg");
+  top: -800px; left: 460px;
+}
+#infosantahong:hover{
+  animation: up 1s ease 1 forwards;
+}
+#santahong:active{
+  z-index: -1;
+  background-image: url("../img/Rare_Fung_Pray.jpg");
+  background-size: 150px;
+}
+#arackulele{
+  width: 150px;
+  position: relative;
+  top: -140px; left: -310px;
+}
+#infoarackulele{
+  background-image: url("../img/arañas.jpg");
+  top: -740px; left: 590px;
+}
+#infoarackulele:hover{
+  animation: up 1s ease 1 forwards;
+}
+#arackulele:active{
+  z-index: -1;
+  background-image: url("../img/Rare_Arackulele.jpg");
+  background-size: 150px;
+}
+#dragong{
+  width: 150px;
+  position: relative;
+  top: -120px; left: -260px;
+}
+#infodragong{
+  background-image: url("../img/dragon.png");
+  top: -780px; left: 805px;
+}
+#infodragong:hover{
+  animation: up 1s ease 1 forwards;
+}
+#dragong:active{
+  z-index: -1;
+  background-image: url("../img/Rare_Dragong.jpg");
+  background-size: 150px;
+}
+#kamileon{
+  width: 150px;
+  position: relative;
+  top: -180px; left: 200px;
+}
+#infokamileon{
+  background-image: url("../img/camaleon.jpg");
+  top: -550px; left: 540px;
+}
+#infokamileon:hover{
+  animation: up 1s ease 1 forwards;
+}
+#kamileon:active{
+  z-index: -1;
+  background-image: url("../img/Rare_Kazilleon.jpg");
+  background-size: 150px;
+}
+#fuez_globo{
+  width: 150px;
+  position: relative;
+  top: -350px; left: 450px ;
+}
+#infofuezglobo{
+  background-image: url("../img/pez.jpg");
+  top: -1050px; left: 970px;
+}
+#infofuezglobo:hover{
+  animation: up 1s ease 1 forwards;
+}
+#fuez_globo:active{
+  z-index: -1;
+  background-image: url("../img/fuez_globo.jpg");
+  background-size: 150px;
+}
+#zoxo{
+  width: 150px;
+  position: relative;
+  top: -200px; left: 200px;
+}
+#infosoxo{
+  width: 90px;
+  background-image: url("../img/olas.jpg");
+  top: -680px; left: 850px;
+}
+#infosoxo:hover{
+  animation: up 1s ease 1 forwards;
+}
+#zoxo:active{
+  z-index: -1;
+  background-image: url("../img/Rare_Sox.jpg");
+  background-size: 150px;
+}
+#mondusa{
+  width: 150px;
+  position: relative;
+  top: -140px; left: -130px;
+}
+#infomondusa{
+  background-image: url("../img/medusas.jpg");
+  top: -700px; left: 705px;
+}
+#infomondusa:hover{
+  animation: up 1s ease 1 forwards;
+}
+#mondusa:active{
+  z-index: -1;
+  background-image: url("../img/Rare_Jellbilly.jpg");
+  background-size: 150px;
+}
+#nebulob{
+  width: 150px;
+  position: relative;
+  top: -620px; left: -10px;
+  transform: scaleX(-1);
+}
+#infonebulob{
+  background-image: url("../img/gelatina.png");
+  top: -1420px; left: 1105px;
+}
+#infonebulob:hover{
+  animation: up 1s ease 1 forwards;
+}
+#nebulob:active{
+  z-index: -1;
+  background-image: url("../img/Rare_Nebulob.jpg");
+  background-size: 150px;
+}
