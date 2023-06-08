@@ -120,6 +120,67 @@ p{
     font-size: large;
   }
 }
+@keyframes horrar {
+  0%{background-size: 150px;}
+  100%{background-image: url("../img/Rare_Ghazt.jpg");}
+}
+@keyframes jeoda {
+  0%{background-size: 150px;}
+  100%{background-image: url("../img/Rare_Jeeode.jpg");}
+}
+@keyframes tarabicho {
+  0%{background-size: 200px;}
+  100%{background-image: url("../img/Rare_Humbug.jpg");}
+}
+@keyframes gruñista {
+  0%{background-size: 150px;}
+  100%{background-image: url("../img/Rare_Grumpyre.jpg");}
+}
+@keyframes rebro {
+  0%{background-size: 150px;}
+  100%{background-image: url("../img/Rare_Reebro.jpg");}
+}
+@keyframes susura {
+  0%{background-size: 125px 175px;}
+  100%{
+    background-image: url("../img/Rare_Whisp.jpg");}
+}
+@keyframes vudu {
+  0%{background-size: 150px;}
+  100%{background-image: url("../img/Rare_Boodoo.jpg");}
+}
+@keyframes santahong {
+  0%{background-size: 150px;}
+  100%{background-image: url("../img/Rare_Fung_Pray.jpg");}
+}
+@keyframes arackulele {
+  0%{background-size: 150px;}
+  100%{background-image: url("../img/Rare_Arackulele.jpg");}
+}
+@keyframes dragong {
+  0%{background-size: 150px;}
+  100%{background-image: url("../img/Rare_Dragong.jpg");}
+}
+@keyframes kamileon {
+  0%{background-size: 150px;}
+  100%{background-image: url("../img/Rare_Kazilleon.jpg");}
+}
+@keyframes fuezglobo {
+  0%{background-size: 150px;}
+  100%{background-image: url("../img/fuez_globo.jpg");}
+}
+@keyframes zoxo {
+  0%{background-size: 150px;}
+  100%{background-image: url("../img/Rare_Sox.jpg");}
+}
+@keyframes mondusa {
+  0%{background-size: 150px;}
+  100%{background-image: url("../img/Rare_Jellbilly.jpg");}
+}
+@keyframes nebulob {
+  0%{background-size: 150px 150px;}
+  100%{background-image: url("../img/Rare_Nebulob.jpg");}
+}
 .elemento{
   width: 50px;
   position: relative;
@@ -143,7 +204,7 @@ p{
   width: 900px;
   height: 450px;
   position: relative;
-  top: 20vh; left: 20vw;
+  top: 22vh; left: 20vw;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -151,7 +212,7 @@ p{
 .tamaño:hover{
   border-radius: 10%;
   border: 1px solid black;
-  animation: coloress 3s linear infinite alternate, vueltas 2s linear infinite;
+  animation: coloress 3s linear infinite alternate, vueltas 2s linear infinite
 }
 .rombo:hover{
   animation: rombo 3s linear infinite forwards;
@@ -167,7 +228,10 @@ p{
 }
 #horrar{
   width: 150px;
+  height: 150px;
   position: relative;
+  background-image: url("../img/horrar.webp");
+  background-size: 150px 150px;
   top: -50px; left: 380px;
 }
 #infohorrar{
@@ -179,13 +243,14 @@ p{
 }
 #horrar:active
 {
-  z-index: -1;
-  background-image: url("../img/Rare_Ghazt.jpg");
-  background-size: 150px;
+  animation: horrar 1s ease forwards,rombo 3s linear infinite forwards;
 }
 #jeoda{
   width: 150px;
+  height: 150px;
   position: relative;
+  background-image: url("../img/jeoda.png");
+  background-size: 150px 150px;
   top: 0px; left: 590px;
 }
 #infojeoda{
@@ -196,13 +261,14 @@ p{
   animation: up 1s ease 1 forwards;
 }
 #jeoda:active{
-  z-index: -1;
-  background-image: url("../img/Rare_Jeeode.jpg");
-  background-size: 150px;
+  animation: jeoda 1s ease forwards,coloress 3s linear infinite alternate, vueltas 2s linear infinite;
 }
 #tarabicho{
   width: 200px;
+  height: 200px;
   position: relative;
+  background-image: url("../img/tarabicho.webp");
+  background-size: 200px 200px;
   top: -75px; left: 175px;
 }
 #infotarabicho{
@@ -213,13 +279,14 @@ p{
   animation: up 1s ease forwards;
 }
 #tarabicho:active{
-  z-index: -1;
-  background-image: url("../img/Rare_Humbug.jpg");
-  background-size: 200px;
+  animation: tarabicho 1s ease forwards,rombo 3s linear infinite forwards;
 }
 #gruñista{
   width: 150px;
+  height: 150px;
   position: relative;
+  background-image: url("../img/gruñista.webp");
+  background-size: 150px 150px;
   top: 170px; left: 150px;
 }
 #infogruñista{
@@ -230,13 +297,14 @@ p{
   animation: up 1s ease 1 forwards;
 }
 #gruñista:active{
-  z-index: -1;
-  background-image: url("../img/Rare_Grumpyre.jpg");
-  background-size: 150px;
+  animation: gruñista 1s ease forwards,rombo 3s linear infinite forwards;
 }
 #rebro{
   width: 150px;
+  height: 140px;
   position: relative;
+  background-image: url("../img/reebro.webp");
+  background-size: 150px 150px;
   top: 20px; left: -690px;
 }
 #inforebro{
@@ -248,13 +316,14 @@ p{
   animation: up 1s ease 1 forwards;
 }
 #rebro:active{
-  z-index: -1;
-  background-image: url("../img/Rare_Reebro.jpg");
-  background-size: 150px;
+  animation: rebro 1s ease forwards,coloress 3s linear infinite alternate, vueltas 2s linear infinite;
 }
 #vudu{
   width: 150px;
+  height: 150px;
   position: relative;
+  background-image: url("../img/voodoo.png");
+  background-size: 150px 150px;
   top: -25px; left: -125px;
 }
 #infovudu{
@@ -266,13 +335,14 @@ p{
   animation: up 1s ease 1 forwards;
 }
 #vudu:active{
-  z-index: -1;
-  background-image: url("../img/Rare_Boodoo.jpg");
-  background-size: 150px;
+  animation: vudu 1s ease forwards,coloress 3s linear infinite alternate, vueltas 2s linear infinite;
 }
 #susura{
   width: 125px;
+  height: 175px;
   position: relative;
+  background-image: url("../img/susura.webp");
+  background-size: 125px 175px;
   top: -425px; left: 100px;
 }
 #infosusura{
@@ -283,13 +353,14 @@ p{
   animation: up 1s ease 1 forwards;
 }
 #susura:active{
-  z-index: -1;
-  background-image: url("../img/Rare_Whisp.jpg");
-  background-size: 200px;
+  animation: susura 1s ease forwards,rombo 3s linear infinite forwards;
 }
 #santahong{
   width: 150px;
+  height: 150px;
   position: relative;
+  background-image: url("../img/santahong.webp");
+  background-size: 150px 150px;
   top: -300px; left: -50px;
 }
 #infosantahong{
@@ -300,13 +371,14 @@ p{
   animation: up 1s ease 1 forwards;
 }
 #santahong:active{
-  z-index: -1;
-  background-image: url("../img/Rare_Fung_Pray.jpg");
-  background-size: 150px;
+  animation: santahong 1s ease forwards,coloress 3s linear infinite alternate, vueltas 2s linear infinite;
 }
 #arackulele{
   width: 150px;
+  height: 150px;
   position: relative;
+  background-image: url("../img/arackulele.webp");
+  background-size: 150px 150px;
   top: -140px; left: -310px;
 }
 #infoarackulele{
@@ -317,13 +389,14 @@ p{
   animation: up 1s ease 1 forwards;
 }
 #arackulele:active{
-  z-index: -1;
-  background-image: url("../img/Rare_Arackulele.jpg");
-  background-size: 150px;
+  animation: arackulele 1s ease forwards,rombo 3s linear infinite forwards;
 }
 #dragong{
   width: 150px;
+  height: 150px;
   position: relative;
+  background-image: url("../img/dragong.webp");
+  background-size: 150px 150px;
   top: -120px; left: -260px;
 }
 #infodragong{
@@ -334,13 +407,14 @@ p{
   animation: up 1s ease 1 forwards;
 }
 #dragong:active{
-  z-index: -1;
-  background-image: url("../img/Rare_Dragong.jpg");
-  background-size: 150px;
+  animation: dragong 1s ease forwards,coloress 3s linear infinite alternate, vueltas 2s linear infinite;
 }
 #kamileon{
   width: 150px;
+  height: 150px;
   position: relative;
+  background-image: url("../img/kamileon.webp");
+  background-size: 150px 150px;
   top: -180px; left: 200px;
 }
 #infokamileon{
@@ -351,13 +425,14 @@ p{
   animation: up 1s ease 1 forwards;
 }
 #kamileon:active{
-  z-index: -1;
-  background-image: url("../img/Rare_Kazilleon.jpg");
-  background-size: 150px;
+  animation: kamileon 1s ease forwards,coloress 3s linear infinite alternate, vueltas 2s linear infinite;
 }
 #fuez_globo{
   width: 150px;
+  height: 150px;
   position: relative;
+  background-image: url("../img/fuezglobo.webp");
+  background-size: 150px 150px;
   top: -350px; left: 450px ;
 }
 #infofuezglobo{
@@ -368,31 +443,33 @@ p{
   animation: up 1s ease 1 forwards;
 }
 #fuez_globo:active{
-  z-index: -1;
-  background-image: url("../img/fuez_globo.jpg");
-  background-size: 150px;
+  animation: fuezglobo 1s ease forwards,rombo 3s linear infinite forwards;
 }
 #zoxo{
   width: 150px;
+  width: 150px;
   position: relative;
+  background-image: url("../img/sox.webp");
+  background-size: 150px 150px;
   top: -200px; left: 200px;
 }
-#infosoxo{
+#infozoxo{
   width: 90px;
   background-image: url("../img/olas.jpg");
   top: -680px; left: 850px;
 }
-#infosoxo:hover{
+#infozoxo:hover{
   animation: up 1s ease 1 forwards;
 }
 #zoxo:active{
-  z-index: -1;
-  background-image: url("../img/Rare_Sox.jpg");
-  background-size: 150px;
+  animation: zoxo 1s ease forwards,coloress 3s linear infinite alternate, vueltas 2s linear infinite;
 }
 #mondusa{
   width: 150px;
+  height: 150px;
   position: relative;
+  background-image: url("../img/mondusa.png");
+  background-size: 150px 150px;
   top: -140px; left: -130px;
 }
 #infomondusa{
@@ -403,15 +480,15 @@ p{
   animation: up 1s ease 1 forwards;
 }
 #mondusa:active{
-  z-index: -1;
-  background-image: url("../img/Rare_Jellbilly.jpg");
-  background-size: 150px;
+  animation: mondusa 1s ease forwards,rombo 3s linear infinite forwards;
 }
 #nebulob{
   width: 150px;
+  height: 150px;
   position: relative;
+  background-image: url("../img/nebulob.png");
+  background-size: 150px 150px;
   top: -620px; left: -10px;
-  transform: scaleX(-1);
 }
 #infonebulob{
   background-image: url("../img/gelatina.png");
@@ -421,7 +498,5 @@ p{
   animation: up 1s ease 1 forwards;
 }
 #nebulob:active{
-  z-index: -1;
-  background-image: url("../img/Rare_Nebulob.jpg");
-  background-size: 150px;
+  animation: nebulob 1s ease forwards,coloress 3s linear infinite alternate, vueltas 2s linear infinite;
 }
